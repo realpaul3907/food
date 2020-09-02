@@ -1,0 +1,272 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+/*header start*/
+
+header {
+
+
+padding: 0;
+
+}
+
+/*hidden menu*/
+
+.menu {
+    padding: 30px 0 0;
+    float: none;
+    position: absolute;
+    top: 0px;
+    left: -100%;
+    transition: all .5s;
+    background: #e9a438;
+    height: 100vh;
+}
+
+.show-menu {
+    width: 102%;
+    left: -2%;
+    z-index: 999999999999999999999999;
+}
+
+.logo_h {
+
+margin-top: 15px ;
+
+}
+
+.logo_h img {
+    width: 28%;
+    margin-left: 40px;
+}
+
+.icon-area{
+	margin-top: 15px;
+}
+
+.icon-area span i{
+
+	font-size:36px;
+
+
+}
+
+/*banner*/
+
+.banner {
+    padding: 40px 0 90px 0;
+}
+
+.ban_img{
+
+
+
+}
+
+.ban_img img{
+	width: 70%;
+}
+
+.ban_text{
+     
+    /*width: 90%; */
+	margin-top: 25px;
+	text-align: center;
+
+}
+
+.banner h1 {
+    font-size: 30px;
+}
+
+.banner p {
+    font-size: 14px;
+    padding: 0 20px;
+}
+
+.btn-custom {
+    width: 112px;
+    height: 41px;
+    font-size: 14px;
+}
+
+	
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+/*header start*/
+
+header {
+
+
+padding: 0;
+
+}
+/*header end*/
+
+/*hidden menu*/
+
+.menu {
+    padding: 30px 0 0;
+    float: none;
+    position: absolute;
+    top: 0px;
+    left: -100%;
+    transition: all .5s;
+    background: #e9a438;
+    height: 100vh;
+}
+
+.show-menu {
+    width: 102%;
+    left: -2%;
+    z-index: 999999999999999999999999;
+}
+
+.logo_h {
+
+margin-top: 10px;
+
+}
+
+.logo_h img{
+
+	width: 20%;
+}
+
+.icon-area{
+	margin-top: 18px;
+}
+	
+.icon-area span i{
+
+	font-size:36px;
+
+
+}
+
+/*banner*/
+
+.banner {
+    padding: 56px 0 90px 0;
+}
+
+.banner h1 {
+    font-size: 32px;
+}
+
+.banner p {
+    font-size: 16px;
+}
+
+.btn-custom {
+    width: 112px;
+    height: 41px;
+    font-size: 14px;
+}
+
+	
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+/*header start*/
+
+header {
+
+
+padding: 0;
+
+}
+/*header end*/
+
+/*hidden menu*/
+
+.menu {
+    padding: 30px 0 0;
+    float: none;
+    position: absolute;
+    top: 0px;
+    left: -100%;
+    transition: all .5s;
+    background: #e9a438;
+    height: 100vh;
+}
+
+.show-menu {
+    width: 102%;
+    left: -2%;
+    z-index: 999999999999999999999999;
+}
+
+.logo_h {
+
+margin-top: 10px;
+
+}
+
+.logo_h img{
+
+	width: 20%;
+}
+
+.icon-area{
+	margin-top: 25px;
+}
+	
+.icon-area span i{
+
+	font-size:40px;
+
+
+}
+
+/*banner*/
+
+.banner {
+    padding: 56px 0 90px 0;
+}
+
+.banner h1 {
+    font-size: 43px;
+   }
+
+.banner p {
+    font-size: 18px;
+   }
+
+.btn-custom {
+    width: 130px;
+    height: 50px;
+    font-size: 18px;
+}
+
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+
+/*banner*/
+
+.banner h1 {
+    font-size: 52px;
+ }
+
+ .banner p {
+
+    font-size: 21px;
+
+}
+	
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+	
+}

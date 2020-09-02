@@ -1,0 +1,107 @@
+@font-face{
+	font-family: aachenn;
+	src: url(../fonts/aachenn.ttf);	
+}
+
+
+body {
+
+font-family: aachenn;
+
+}
+
+/*header start*/
+
+header {
+
+
+background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url("../images/h_bg.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+position: relative;
+
+padding:50px 0 100px;
+
+}
+
+
+.menu_t {
+
+
+text-transform: uppercase;
+
+}
+
+.menu_t a {
+
+color:white;
+transition: .3s ;
+-webkit-transition: .3s ;
+-moz-transition: .3s ;
+
+}
+
+
+.menu_t a:hover{
+
+	color:#e9a438;
+}
+
+.logo{
+
+
+}
+
+
+.logo img{
+
+}
+
+.menu_h{
+
+	margin-top: 20px;
+}
+
+/*banner start*/
+.banner{
+
+padding:120px 0 0 0;
+
+}
+ 
+.banner h1{
+
+	font-size: 67px;
+	color:#e58f00;
+}
+
+.banner p {
+
+font-size: 25px;
+color: white;
+
+}
+
+.btn-custom {
+
+	background-color: #e58f00;
+	transition: .3s ;
+    -webkit-transition: .3s ;
+    -moz-transition: .3s ; 
+}
+
+.btn-custom:hover{
+
+background-color: white;
+color:#e58f00;
+
+}
+/*banner end*/
+
+
+
+
+
+/*header end*/
